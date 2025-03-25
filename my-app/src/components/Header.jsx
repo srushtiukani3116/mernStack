@@ -1,6 +1,6 @@
 import React from 'react';
-import {FaSearch} from 'react-icons/fa';
-import {Link} from 'react-router-dom';
+import { FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -27,12 +27,12 @@ export default function Header() {
                 <Link to='/SignIn'>
                     <li className='sm:inline text-slate-700 hover:underline'>SignIn</li>
                 </Link>
-                <Link to='/SignUp'>
+                {/* <Link to='/SignUp'>
                     <li className='hidden sm:inline text-slate-700 hover:underline'>SignUp</li>
                 </Link>
                 <Link to='/Profile'>
                     <li className='hidden sm:inline text-slate-700 hover:underline'>Profile</li>
-                </Link>
+                </Link> */}
             </ul>
         </div>
      </header>
